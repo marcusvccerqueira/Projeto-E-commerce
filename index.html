@@ -9,19 +9,20 @@
 
 <body>
     <header>
-        <nav>
-            <div class="navBar">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+        <nav class="navBar">
+            <div class="navInfo">
+                <div class="navLogo"></div>
+                <div class="navSearch"></div>
+                <div class="navInfo1"></div>
+                <div class="navInfo2"></div>
+                <div class="navIcons"></div>
             </div>
-            <div class="secaoProdutos">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="navProducts">
+                <div>
+                    <div class="navCategory"></div>
+                    <div class="navPages"></div>
+                </div>
+                <div class="navSocialIcons"></div>
             </div>
         </nav>
     </header>
@@ -45,9 +46,19 @@ Divisão de classes:
 
 Header
     Navbar:
-        Seção de produtos
-        class="navBar"
-        class="navSectionProducts"
+        div class="navBar"
+            class="navInfo" - Parte superior
+            class="navLogo" - Logo da empresa
+            class="navSearch" - Pesquisa
+            class="navInfo1" - Informações de delivery, return, orders 
+            class="navInfo2" - Entre em contato
+            class="navIcons" - Icones de perfil | Itens favoritos | Carrinho
+
+        div  class="navProducts" - Parte da lista de seções
+            div 
+                class="navCategory" - Lista de categorias de produtos
+                class="navPages" - Todas as paginas relacionadas
+            class="navSocialIcons" - Icones de redes sociais
 -------------------------------
 Body
     Carrocel
@@ -77,14 +88,12 @@ Tags:
 ----------------------------------------
 Cores utilizadas:
 Utilizar --var
-    NavBar 1:
+    navBar 1:
+        background: #03484D
+    navBar 2:
         background: #0E3B3E
-        span: #0E3B3E
-    NavBar 2:
-        background: #0E3B3E
-        span: #0E3B3E
     
-    NavBar icons:
+    navBar icons:
         color: #FFFFFF
 
     H1, H2:

@@ -1,0 +1,6 @@
+* {
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-base);
+    padding: 0;
+    margin: 0;
+}

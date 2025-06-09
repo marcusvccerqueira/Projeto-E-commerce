@@ -1,0 +1,41 @@
+:root {
+    /* Cores utilizadas */
+    --cor-principal: #F6F6F6;
+    --cor-secundaria: #FFFFFF;
+    --cor-texto-principal: #000000;
+    --cor-texto-secundaria: #FFFFFF;
+    --cor-navbar-principal: #03484D;
+    --cor-navbar-secundaria: #0E3B3E;
+    --cor-icons: #FFFFFF;
+    --cor-button-veja-mais: #14B1F0;
+    --cor-button-produtos: #15ADB7;
+    --color-enfase-azul: #00B9C5;
+    --color-enfase-vermelho: #C82020;
+
+    /* Fonte base */
+    --fonte-base: 'Century Gothic', sans-serif;
+    --peso-padrao: 400;
+    --espacamento-padrao: 0%;
+    --altura-linha-padrao: 100%;
+
+    /* Tamanhos */
+    --fs-h1: 57px;
+    --fs-h2: 28px;
+    --fs-h3: 12px;
+    --fs-span: 12px;
+    --fs-span-desconto: 13px;
+    --fs-lista-produto: 19px;
+    --fs-button: 15px;
+
+    /* Alturas de linha específicas */
+    --lh-h1: 53px;
+    --lh-lista-produto: 53px;
+
+    /* Text transform */
+    --tt-uppercase: uppercase;
+    --tt-capitalize: capitalize;
+
+    /* Extras */
+    --decoracao-desconto: line-through;
+    --alinhamento-lista: middle;
+}
